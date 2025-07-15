@@ -57,8 +57,8 @@ We have the following files:
 A) placebo_06_18.R: this file is for specification number 1. It produces the following csvs: 
 
    We run this file 5 times for 5 different seeds for the placebo tests: 
-   
-    - placebo_state_2006_2018_1_excl0_no_sup.csv -- placebo_state_2006_2018_5_excl0_no_sup.csv (this number after the year 2018 signifies the placebo_seed: we run the script for placebo_seed=1:5)
+
+   placebo_state_2006_2018_1_excl0_no_sup.csv through placebo_state_2006_2018_5_excl0_no_sup.cs (the number after the year 2018 signifies the placebo_seed: we run the script for placebo_seed=1:5)
    
 B) placebo_06_22_23.R this file is for specification number 2. It produces the following csvs: 
 
