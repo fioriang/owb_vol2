@@ -115,3 +115,4 @@ B) xy_new_data_all_new_states.R (Apart from the above this file also includes on
 This is included in section "Robustness Check for CT, VT" of xy_new_data_all.R
 #### Monte Carlo estimates
 Basically we re-run the full analysis 100 times for the five different placebo seeds. (There is one such section in xy_new_data_all.R and one in xy_new_data_all_new_states.R.)
+This shows us (1) how much our ATT estimates change holding |S| fixed and (2) how much |S| might change
