@@ -99,7 +99,17 @@ C) placebo_10_22_23.R this file is for specification number 3. It produces the f
 
 ### Actual Effects 
 
-We have
+We have 2 files: one for the extension one for the new states. These files are well commented they basically include two main functions: 
+
+1) all_results_function: this creates two main files the xy_plot_data_donors that essentially includes the time series for the actual and synthetic state and the bt_with_power_data which is a tibble that inlcudes the ATT, the power, the expected effects and is used to produce the right side of the main figures 
+2) save_values_function: this saves all the values that we need for the write up. For example, it saves all the ATTs (both the actual and the absolute values), it saves all the p values, the chosen donors etc. 
+
+They also include a section named "Plots and tables" and is where the main plots of the paper are produced
+
+There are some differences between these two files (see the code for more details)  
+
+A) xy_new_data_all.R (Apart from the above this file also includes one additional section "Robustness Check for CT, VT" where we re-run the analysis for the alternative input data for CT and VT) 
+B) xy_new_data_all_new_states.R (Apart from the above this file also includes one additional section "CA check" where we assume that CA's ban went into effect in Jan. 2022. We include this ban in the recent bans and run the analysis in the 2010-2022 and 2010-2023 horizon)
 
 #### Robustness checks of different input data 
 
