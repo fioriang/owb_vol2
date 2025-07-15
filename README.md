@@ -80,6 +80,7 @@ We produce the following specifications:
    - Not exlcuding any years
    - Excluding 2020
    - Excluding 2020-2021
+     
    For this case, we only exclude these years from the estimation of ATT (these years do not fall in the training or in the validation set). In principle, the optimal |S| produced by these three could be the same, however the ATTs might change so we might see diffrences in the optimal |S| produced by these three different specficiations
 So for each placebo_seed we have 6 files: three for ending year 2022 and three for ending year 2023
 
