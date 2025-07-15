@@ -78,7 +78,23 @@ B) placebo_06_22_23.R this file is for specification number 2. It produces the f
    
    - placebo_state_2006_2023_1_excl2021_no_sup.csv through placebo_state_2006_2023_5_excl2021_no_sup.csv (these represent the specification that excludes 2020--2021)
 
-C) 
+C) placebo_10_22_23.R this file is for specification number 3. It produces the following csvs: 
+
+   We run this file 5 times for 5 different seeds for the placebo tests. It produces the following files: 
+   
+   - placebo_state_2010_2022_1_excl0_no_sup.csv through placebo_state_2010_2022_5_excl0_no_sup.csv (these represent the specification that excludes no years)
+   
+   - placebo_state_2010_2022_1_excl2020_no_sup.csv through placebo_state_2010_2022_5_excl2020_no_sup.csv (these represent the specification that excludes 2020)
+   
+   - placebo_state_2010_2022_1_excl2021_no_sup.csv through placebo_state_2010_2022_5_excl2021_no_sup.csv (these represent the specification that excludes 2020--2021)
+   
+   And then we run this file another 5 times for 5 different seeds for the placebo tests but we change the parameter year_cutoff to 2023. It produces the following files: 
+
+   - placebo_state_2010_2023_1_excl0_no_sup.csv through placebo_state_2010_2023_5_excl0_no_sup.csv (these represent the specification that excludes no years)
+   
+   - placebo_state_2010_2023_1_excl2020_no_sup.csv through placebo_state_2010_2023_5_excl2020_no_sup.csv (these represent the specification that excludes 2020)
+   
+   - placebo_state_2010_2023_1_excl2021_no_sup.csv through placebo_state_2010_2023_5_excl2021_no_sup.csv (these represent the specification that excludes 2020 and 2021)
 
 
 ### Actual Effects 
