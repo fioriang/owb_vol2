@@ -112,5 +112,6 @@ A) xy_new_data_all.R (Apart from the above this file also includes one additiona
 B) xy_new_data_all_new_states.R (Apart from the above this file also includes one additional section "CA check" where we assume that CA's ban went into effect in Jan. 2022. We include this ban in the recent bans and run the analysis in the 2010-2022 and 2010-2023 horizon)
 
 #### Robustness checks of different input data 
-
+This is included in section "Robustness Check for CT, VT" of xy_new_data_all.R
 #### Monte Carlo estimates
+Basically we re-run the full analysis 100 times for the five different placebo seeds.  
