@@ -20,47 +20,6 @@ Two points:
 
 State-specific notes: 
 
-- AL
-- AZ
-- CA
-- CO
-- CT
-- DE
-- FL
-- GA
-- IL
-- IN
-- IA
-- KY
-- ME
-- MD
-- MA
-- MI
-- MN
-- MS
-- MO
-- NV
-- NJ
-- NM
-- NY
-- NC
-- OH
-- OK
-- OR
-- PA
-- RI
-- SC
-- TN
-- TX
-- UT
-- VT
-- WA
-- WI
-- LA
-- MT
-- NE
-- NH
-- VA
 
 ### Expected effects 
 No difference from the OWB. The only things that we add are two WCS: one for NJ and one for NY. 
@@ -99,15 +58,9 @@ A) placebo_06_18.R: this file is for specification number 1. It produces the fol
 
    We run this file 5 times for 5 different seeds for the placebo tests: 
    
-    placebo_state_2006_2018_1_excl0_no_sup.csv \\
-    placebo_state_2006_2018_2_excl0_no_sup.csv \\   
-    placebo_state_2006_2018_3_excl0_no_sup.csv \\
-    placebo_state_2006_2018_4_excl0_no_sup.csv \\
-    placebo_state_2006_2018_5_excl0_no_sup.csv \\
+    - placebo_state_2006_2018_1_excl0_no_sup.csv -- placebo_state_2006_2018_5_excl0_no_sup.csv (this number after the year 2018 signifies the placebo_seed: we run the script for placebo_seed=1:5)
    
-
-   
-B) 
+B) placebo_06_22_23.R this file is for specification number 2. It produces the following csvs: 
 
 C) 
 
