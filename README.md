@@ -76,17 +76,45 @@ We produce the following specifications:
 
 1) Placebo estimates for the first five implemented bans starting in 2006 and ending in 2018 (with all updates to the data and the code)
 
-2) Placebo estimate for the first five implemented bans starting in 2006 and ending in 2022 and in 2023
+3) Placebo estimate for the first five implemented bans starting in 2006 and ending in 2022 and in 2023
    - Not exlcuding any years
    - Excluding 2020
    - Excluding 2020-2021
      
-   For this case, we only exclude these years from the estimation of ATT (these years do not fall in the training or in the validation set). In principle, the optimal |S| produced by these three could be the same, however the ATTs might change so we might see diffrences in the optimal |S| produced by these three different specficiations
+   For this case, the excluded years all fall in the evaluation period (they mainly affect the estimation of ATT not the selection of donors). In principle, the optimal |S| produced by these three could be the same, however the ATTs might change so we might see diffrences in the optimal |S| produced by these three different specficiations
 So for each placebo_seed we have 6 files: three for ending year 2022 and three for ending year 2023
 
-3) Placebo estimates for the new bans (three: NJ, NY, MD and one that we do not evaluate WA), starting in 2010 and ending in 2022 and in 2023
+4) Placebo estimates for the new bans (three: NJ, NY, MD and one that we do not evaluate WA), starting in 2010 and ending in 2022 and in 2023
+   - Not exlcuding any years
+   - Excluding 2020
+   - Excluding 2020-2021
+   
+   For this case, the excluded years fall in the validation period (they mainly affect the selection of donors).
+So for each placebo_seed we have 6 files: three for ending year 2022 and three for ending year 2023
+
+
+We have the following files: 
+
+A) placebo_06_18.R: this file is for specification number 1. It produces the following csvs: 
+
+   We run this file 5 times for 5 different seeds for the placebo tests: 
+   
+    i) placebo_state_2006_2018_1_excl0_no_sup.csv 
+   ii) placebo_state_2006_2018_2_excl0_no_sup.csv    
+  iii) placebo_state_2006_2018_3_excl0_no_sup.csv
+   iv) placebo_state_2006_2018_4_excl0_no_sup.csv
+    v) placebo_state_2006_2018_5_excl0_no_sup.csv
+   
+
+   
+B) 
+
+C) 
+
 
 ### Actual Effects 
+
+We have
 
 #### Robustness checks of different input data 
 
