@@ -111,8 +111,11 @@ There are some differences between these two files (see the code for more detail
 A) xy_new_data_all.R (Apart from the above this file also includes one additional section "Robustness Check for CT, VT" where we re-run the analysis for the alternative input data for CT and VT) 
 B) xy_new_data_all_new_states.R (Apart from the above this file also includes one additional section "CA check" where we assume that CA's ban went into effect in Jan. 2022. We include this ban in the recent bans and run the analysis in the 2010-2022 and 2010-2023 horizon)
 
-#### Robustness checks of different input data 
+#### Robustness checks
 This is included in section "Robustness Check for CT, VT" of xy_new_data_all.R
+Additionally, we have xy_new_data_all_inclMAinagg.R which is exactly the same as xy_new_data_all.R but inlcudes MA in the calculation of the aggregate effect. 
 #### Monte Carlo estimates
 Basically we re-run the full analysis 100 times for the five different placebo seeds. (There is one such section in xy_new_data_all.R and one in xy_new_data_all_new_states.R.)
-This shows us (1) how much our ATT estimates change holding |S| fixed and (2) how much |S| might change (which might bring even larger changes to the ATT)
+This shows us (1) how much our ATT estimates change holding |S| fixed and (2) how much |S| might change (which might bring even larger changes to the ATT). 
+
+For the 06-22 analysis we also have a separate file: xy_new_data_all_MC.R
