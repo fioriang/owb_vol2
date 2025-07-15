@@ -99,11 +99,11 @@ A) placebo_06_18.R: this file is for specification number 1. It produces the fol
 
    We run this file 5 times for 5 different seeds for the placebo tests: 
    
-    i) placebo_state_2006_2018_1_excl0_no_sup.csv 
-   ii) placebo_state_2006_2018_2_excl0_no_sup.csv    
-  iii) placebo_state_2006_2018_3_excl0_no_sup.csv
-   iv) placebo_state_2006_2018_4_excl0_no_sup.csv
-    v) placebo_state_2006_2018_5_excl0_no_sup.csv
+    placebo_state_2006_2018_1_excl0_no_sup.csv \\
+    placebo_state_2006_2018_2_excl0_no_sup.csv \\   
+    placebo_state_2006_2018_3_excl0_no_sup.csv \\
+    placebo_state_2006_2018_4_excl0_no_sup.csv \\
+    placebo_state_2006_2018_5_excl0_no_sup.csv \\
    
 
    
